@@ -177,7 +177,7 @@ class PanelTest < Panel
         @rot = 0
         @elem = Element2D.new(40.0, 40.0)
         @elem.vec2d.setVec(0.4, 0.2)
-        @sprite = Sprite.new($IMAGE_RUBY)
+        @sprite = Sprite.new($IMAGE_MIKU)
         @sprite.setElement(@elem)
     end
 
